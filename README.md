@@ -1,61 +1,38 @@
-# **TESTE DE BACKEND**
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## SITUAÇÃO-PROBLEMA
+## Getting Started
 
-Você acabou de ser contratado para uma vaga de desenvolvedor backend de uma empresa que revende cervejas do mundo inteiro. O desenvolvedor anterior corrompeu completamente o banco de dados e a API anterior e sobrou apenas um arquivo .JSON com todas as informações do banco. Seu líder confiou a tarefa de recriar a API e o banco de dados a você.
+First, run the development server:
 
-Neste teste, você deverá criar uma API com endpoints a serem consumidos via REST e um banco de dados, utilizando os dados fornecidos no arquivo. ````db.json````.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
----------------------------------------------------------------------
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## REQUISITOS OBRIGATÓRIOS:
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-- Seja original, projetos suspeitos de serem copiados serão descartados.
-- Queremos ver o seu código, e não o de outros.
-- Criar coleção no Postman (seu teste será testado por aqui).
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-## GIT
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-- Faça um fork deste repositório.
-- Crie uma branch para codar as suas features.
-- Faça um pull-request quando o teste for finalizado.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-##### **NOTA: Será avaliado também se o nome da branch, títulos de commit, push e comentários possuem boa legibilidade.**
+## Learn More
 
------------------------------------------------------
+To learn more about Next.js, take a look at the following resources:
 
-## FRAMEWORK -
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Servidor: Express (Javascript/Typescript) *<u>**OU**</u>* Gin (Golang)
-- Banco de dados: MongoDB, DynamoDB, MySQL, Postgres...
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
------------------------------------------------------
+## Deploy on Vercel
 
-## PROJETO
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Api deve conter pelo menos 1 endpoint para cada operação crud (Create, Read, Update, Delete).
-- Um endpoint para listagem de conteúdo.
-- Banco de dados a escolha do dev.
-
--------------------------------------------------------
-
-## REQUISITOS DIFERENCIAIS:
-
-- Seguir os princípios de SOLID.
-- Fazer o teste em GoLang.
-- Codar um código performático.
-- Utilizar inglês no projeto todo.
-- Utilizar Injeção de dependências.
-- Criar um frontend que consuma a API
-- Fazer deploy do mesmo (heroku, aws, google cloud ou outro da preferência).
-
-
-
----
-
-## ENTREGA
-
-- Faça um pull request e nomeie-o como no ex.: Teste de (Seu nome aqui).
-- Envie um email para schmidt@repenso.eco e kevin@repenso.eco com o link do pull request, do deploy (tanto do front quanto do back se feito), e anexe a coleção do postman.
-- Assim que avaliarmos seu teste, enviaremos uma devolutiva de sucesso ou falha, e um link para agendar sua entrevista técnica.
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
